@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+    <title>Welcome to Cera's Gym</title>
+   <style>
+       body{
+           color: white;
+           margin: 0px;
+           padding: 0px;
+           background-image: url('https://cdn.pixabay.com/photo/2017/08/07/19/44/girl-2607110_960_720.jpg');
+           
+           font-family: 'Roboto Flex', sans-serif;
+       }
+       .mid{
+        
+         display: block;
+         width: 33%;
+         margin: auto;
+         
+         
+       }
+       .left{
+        display: inline-block;
+        position: absolute;
+         
+         top: 0px;
+         left: 15px;
+         
+       }
+       .right{
+         position: absolute;
+         display: inline-block;
+        
+         top: 0px;
+         right: 10px;
+       }
+       .navbar li{
+           display: inline-block;
+       }
+      
+       /* li{
+           display: inline-block;
+           
+       } */
+       
+       .navbar{
+           list-style: none;
+           border: 2px solid black;
+           background-color: white;
+           padding: 10px;
+           border-radius: 20px;
+           
+
+       }
+       .navbar li a{
+           text-decoration: none;
+           padding: 15px;
+           
+          
+       }
+       .image{
+           border-radius: 40px;
+       }
+       .left p{
+           position: absolute;
+        
+           display: inline-block;
+           width: 100%;
+          
+           top: 83px;
+            left: 4px;
+           
+           
+       }
+       .navbar1 li {
+           display: inline-block;
+           
+       }
+       .navbar1{
+           
+           padding: 10px;
+           
+           border-radius: 20px;
+
+
+       }
+       .navbar1 li{
+           list-style: none;
+       }
+       .navbar1 li a{
+        text-decoration: none;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 7px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+
+       }
+       .navbar1 li a:hover{
+           background-color: black;
+           color: white;
+       }
+       .navbar li a:hover,.navbar li a:active{
+           background-color: black;
+           text-decoration: underline;
+           color: white;
+       }
+       .navbar1 li a:hover,.navbar1 li a:active{
+           background-color: black;
+           text-decoration: underline;
+           color: white;
+       }
+       .container{
+        display: block;
+    border: 1px solid white;
+    border-radius: 46px;
+    width: 47%;
+    margin: auto;
+    padding: 13px;
+}
+    
+
+
+       
+       h2{
+           display: block;
+           width: 62%;
+           margin: auto;
+           padding: 20px;
+       }
+       .group input{
+           text-align: center;
+    display: block;
+    width: 51%;
+    padding: 6px;
+    margin: auto;
+
+       }
+       .submission{
+           /* border: 1px solid white; */
+               /* border: 1px solid white; */
+    display: block;
+    width: 54%;
+    margin: auto;
+    padding: 15px;
+    
+       }
+       .submission button{
+           color: white;
+           background-color: black;
+       }
+       .call-us{
+        display: block;
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        position: fixed;
+    }
+
+       
+       
+   </style>
+</head>
+<body>
+   <header class="header">
+    <div class="left">
+        <img class="image" src="https://png.pngtree.com/png-vector/20191024/ourmid/pngtree-weight-gym-icon-png-image_1862616.jpg" alt="error" width="100px" height="100px">
+        <p>Kumar's Gym</p>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li class="nav"><a href="#">Home</a></li>
+            <li class="nav"><a href="#">About-us</a></li>
+            <li class="nav"><a href="#">Locations</a></li>
+            <li class="nav"><a href="#">Contact-us</a></li>
+
+        </ul>
+    </div>
+    <div class="right">
+        <ul class="navbar1">
+            <li class="nav"><a href="#">Call Us Now</a></li>
+            <li class="nav"><a href="#">Email-Us</a></li>
+            
+        </ul>
+        
+    </div>
+
+
+    <div class="container">
+
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Join Lucknow's Best Gym</h2>
+        <form action="backend.php">
+            <div class="group">
+                <input type="text" name=""  placeholder="Enter your name" id="name">
+            </div>
+            <div class="group">
+                <input type="text"  placeholder="Enter your address">
+            </div>
+            <div class="group">
+                <input type="email" name=""  placeholder="Enter your gmail" id="">
+            </div>
+            <div class="group">
+                <input type="number" name="" placeholder="Phone number" id="">
+            </div>
+            
+            <div class="submission">
+                <button class="submit">Submit</button>
+                <button class="reset">Reset</button>
+            </div>
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+  
+   
+   </header>
+</body>
+</html>
